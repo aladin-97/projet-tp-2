@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document HTML5</title>
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur HTML5</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#section1">Section 1</a></li>
+            <li><a href="#section2">Section 2</a></li>
+        </ul>
+    </nav>
+    
+    <section id="section1">
+        <h2>Section 1</h2>
+        <p>HTML5 facilite la création de contenu structuré et interactif.</p>
+        <form>
+
+            <label for="fruits">Choisissez un fruit :</label>
+            <select id="fruits" name="fruits">
+              <option value="pomme">Pomme</option>
+              <option value="banane">Banane</option>
+              <option value="cerise">Cerise</option>
+              <option value="orange" selected >Orange</option>
+            </select>
+
+            <p>Select your preferred contact method:</p>
+            <input type="radio" id="email" name="contact" value="email" checked>
+            <label for="email">Email</label><br>
+            <input type="radio" id="phone" name="contact" value="phone">
+            <label for="phone">Phone</label><br>
+            <input type="radio" id="mail" name="contact" value="mail">
+            <label for="mail">Mail</label><br>
+            <input type="radio" id="test" name="contact" value="test">
+            <label for="mail">Mail</label>
+          </form>
+          
+
+    </section>
+    
+    <section id="section2">
+        <h2>Section 2</h2>
+        <label for="fruits">Choose your favorite fruits:</label>
+
+        <form>
+            <fieldset>
+              <legend>To-Do List</legend>
+              <div>
+                <input type="checkbox" id="task1" name="tasks" value="task1">
+                <label for="task1">Buy groceries</label>
+              </div>
+              <div>
+                <input type="checkbox" id="task2" name="tasks" value="task2">
+                <label for="task2">Clean the house</label>
+              </div>
+              <div>
+                <input type="checkbox" id="task3" name="tasks" value="task3">
+                <label for="task3">Finish project report</label>
+              </div>
+              <!-- Add more tasks as needed -->
+            </fieldset>
+          </form>
+          
+        
+
+        <p>Utilisez des balises multimédias comme <code>&lt;audio&gt;</code> et <code>&lt;video&gt;</code>.</p>
+        
+        <table border="1">
+            <tr>
+              <th colspan="2" rowspan="2">Merged Header</th>
+              <th>Header 3</th>
+            </tr>
+            <tr>
+              <th>Header 4</th>
+            </tr>
+            <tr>
+              <td>Cell 1</td>
+              <td>Cell 2</td>
+              <td>Cell 3</td>
+            </tr>
+          </table>
+
+          
+    </section>
+    <section>
+        <div>
+            <table border="1">
+                <tr>
+                  <td rowspan="2">Merged Cell</td>
+                  <td>Cell 1</td>
+                </tr>
+                <tr>
+                  <td>Cell 2</td>
+                </tr>
+              </table>
+              
+        <div style="background-color : red ;  width:100px ; height: 100px">
+            <h1>
+                this is div 1
+            </h1>
+        </div>
+        <div style="background-color: green ; width : 100px ; height: 100px;;">
+        </div>
+    </div>
+    </section>
+    
+    <footer>
+        <p>© 2025 - Créé avec HTML5</p>
+    </footer>
+</body>
+</html>
